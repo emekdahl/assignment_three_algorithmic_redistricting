@@ -1,0 +1,11 @@
+Cbc0010I After 0 nodes, 1 on tree, 1e+50 best solution, best possible 1206866.5 (167.83 seconds)
+Cbc0010I After 100 nodes, 63 on tree, 1e+50 best solution, best possible 1206866.5 (325.82 seconds)
+Cbc0010I After 200 nodes, 120 on tree, 1e+50 best solution, best possible 1206866.5 (388.86 seconds)
+Cbc0010I After 300 nodes, 173 on tree, 1e+50 best solution, best possible 1206866.5 (442.98 seconds)
+Cbc0010I After 400 nodes, 229 on tree, 1e+50 best solution, best possible 1206866.5 (488.80 seconds)
+Cbc0010I After 500 nodes, 278 on tree, 1e+50 best solution, best possible 1206866.5 (511.55 seconds)
+Cbc0010I After 600 nodes, 331 on tree, 1e+50 best solution, best possible 1206866.5 (525.10 seconds)
+Cbc0010I After 700 nodes, 384 on tree, 1e+50 best solution, best possible 1206866.5 (536.16 seconds)
+Cbc0010I After 800 nodes, 435 on tree, 1e+50 best solution, best possible 1206866.5 (542.30 seconds)
+Cbc0004I Integer solution of 3857281.3 found after 226894 iterations and 835 nodes (544.33 seconds)
+Cbc0038I Full problem 183864 rows 62672 columns, reduced to 2881 rows 503 columns
