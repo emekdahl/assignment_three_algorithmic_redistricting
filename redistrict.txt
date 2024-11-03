@@ -1,0 +1,147 @@
+import io
+import logging
+import requests
+import zipfile
+
+import geopandas as gpd
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from pulp import LpProblem, LpMinimize, LpVariable, lpSum, LpBinary, LpStatus, PULP_CBC_CMD
+
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+
+def get_county_populations(filename):
+    """Load Ohio county population data."""
+    try:
+        df = pd.read_csv(filename)
+        df["county_name"] = df["county_name"].str.lower()
+        assert df['population'].notna().all()
+        return df
+    except Exception as e:
+        logging.info(f"Something went wrong while importing the population data: {e}")
+
+def get_county_map_data(population_df: pd.DataFrame) -> pd.DataFrame:
+    """Download and prepare Ohio county shapefile data."""
+    url = "https://www2.census.gov/geo/tiger/TIGER2024/COUNTY/tl_2024_us_county.zip"
+    response = requests.get(url)
+    response.raise_for_status()
+    with zipfile.ZipFile(io.BytesIO(response.content)) as z:
+        z.extractall("tl_2024_us_county")
+    
+    counties = gpd.read_file("tl_2024_us_county/tl_2024_us_county.shp")
+    ohio_counties = counties[counties["STATEFP"] == "39"].to_crs(epsg=32617)
+    ohio_counties["NAME"] = ohio_counties["NAME"].str.lower()
+    ohio_counties["centroid"] = ohio_counties.geometry.centroid
+    ohio_counties["centroid_lat"] = ohio_counties.centroid.y
+    ohio_counties["centroid_lon"] = ohio_counties.centroid.x
+    
+    merged_df = ohio_counties.merge(population_df, left_on="NAME", right_on="county_name", how="left")
+    
+    if 'population' in merged_df.columns:
+        avg_population = merged_df['population'].mean()
+        merged_df['population'].fillna(avg_population, inplace=True)
+    else:
+        raise ValueError("The population column is missing from the DataFrame.")
+    merged_df.to_csv('check_population.csv')
+    
+    return merged_df
+
+def calculate_distances(df):
+    """Calculate Euclidean distances between county centroids."""
+    distances = {}
+    for i, row_i in df.iterrows():
+        for j, row_j in df.iterrows():
+            if i < j:
+                distance = np.sqrt((row_i['centroid_lat'] - row_j['centroid_lat'])**2 +
+                                   (row_i['centroid_lon'] - row_j['centroid_lon'])**2)
+                distances[(i, j)] = distance
+                distances[(j, i)] = distance
+    return distances
+
+def redistrict_ohio(df: pd.DataFrame): 
+    """Optimize Ohio redistricting based on population balance and compactness."""
+    
+    num_districts = 16
+    ideal_population = df['population'].sum() / num_districts
+    model = LpProblem("Ohio_Redistricting", LpMinimize)
+    
+    x = LpVariable.dicts("x", [(i, j) for i in df.index for j in range(num_districts)], cat='Binary')
+    
+    population_deviation = LpVariable.dicts("deviation", range(num_districts), lowBound=0)
+    
+    y = LpVariable.dicts("y", [(i, k, j) for i in df.index for k in df.index for j in range(num_districts) if i < k], cat='Binary')
+    
+    for i in df.index:
+        model += lpSum(x[(i, j)] for j in range(num_districts)) == 1
+
+    for j in range(num_districts):
+        district_population = lpSum(df.loc[i, 'population'] * x[(i, j)] for i in df.index)
+        model += district_population <= ideal_population + population_deviation[j]
+        model += district_population >= ideal_population - population_deviation[j]
+
+    distances = calculate_distances(df)
+    for i in df.index:
+        for k in df.index:
+            if i < k:
+                for j in range(num_districts):
+                    model += y[(i, k, j)] <= x[(i, j)]
+                    model += y[(i, k, j)] <= x[(k, j)]
+                    model += y[(i, k, j)] >= x[(i, j)] + x[(k, j)] - 1
+
+    primary_weight = 1
+    secondary_weight = 0.01
+    model += primary_weight * lpSum(population_deviation[j] for j in range(num_districts)) + \
+             secondary_weight * lpSum(distances[(i, k)] * y[(i, k, j)] 
+                                      for i in df.index for k in df.index for j in range(num_districts) if i < k), \
+             "Minimize_Population_Deviation_and_Compactness"
+
+    model.solve()
+    logging.info(f"Optimization status: {LpStatus[model.status]}")
+
+    assignments = []
+    for i in df.index:
+        for j in range(num_districts):
+            if x[(i, j)].varValue == 1:
+                assignments.append({'county_name': df.loc[i, 'county_name'], 'assigned_district': j})
+                break 
+
+    assigned_districts = pd.DataFrame(assignments)
+    
+    assigned_districts_with_geo = df.merge(assigned_districts, on='county_name')
+    assigned_districts_with_geo = gpd.GeoDataFrame(assigned_districts_with_geo, geometry='geometry')
+    
+    return assigned_districts_with_geo
+
+
+def get_county_map(merged: gpd.GeoDataFrame):
+    """Plot the Ohio county map with district assignments."""
+    
+    if merged.crs.to_epsg() != 32617:
+        merged = merged.to_crs(epsg=32617)
+    
+    fig, ax = plt.subplots(1, 1, figsize=(12, 12))
+    merged.plot(column="assigned_district", cmap="tab20", legend=True, ax=ax, edgecolor="black")
+    
+    for idx, row in merged.iterrows():
+        plt.annotate(
+            text=row["assigned_district"],
+            xy=(row.geometry.centroid.x, row.geometry.centroid.y),
+            ha="center",
+            fontsize=6,
+            color="black"
+        )
+    
+    ax.set_title("Ohio Counties with District Assignments")
+    ax.axis("off")
+    plt.savefig("ohio_district_map.png", dpi=300, bbox_inches="tight")
+    plt.close(fig)
+    logging.info("Map saved as 'ohio_district_map.png'.")
+
+
+
+if __name__ == "__main__":
+    population_df = get_county_populations('ohio_counties.csv')
+    centroids_df = get_county_map_data(population_df)
+    assigned_districts = redistrict_ohio(centroids_df)
+    get_county_map(assigned_districts)
