@@ -1,0 +1,1145 @@
+[
+	{
+		"county_name": "Adams County", 
+		"zipcode": 39001,
+		"neighbors": [
+			{"Lewis County, KY": 21135},
+			{"Mason County, KY": 21161},
+			{"Brown County": 39015},
+			{"Highland County": 39071},
+			{"Pike County": 39131},
+			{"Scioto County": 39145}
+		]
+	},
+	{
+		"county_name": "Allen County",
+		"zipcode": 39003, 
+		"neighbors": [
+			{"Allen County": 39003},
+			{"Auglaize County": 39011},
+			{"Hancock County": 39063},
+			{"Hardin County": 39065},
+			{"Putnam County": 39137},
+			{"Van Wert County": 39161}
+		]
+	},
+	{
+		"county_name": "Ashland County",
+		"zipcode": 39005, 
+		"neighbors": [
+			{"Ashland County": 39005}, 
+			{"Holmes County": 39075},
+			{"Huron County": 39077},
+			{"Knox County": 39083},
+			{"Lorain County": 39093},
+			{"Medina County": 39103},
+			{"Richland County": 39139},
+			{"Wayne County": 39169}
+		]
+	},
+	{
+		"county_name": "Ashtabula County",
+		"zipcode": 39007, 
+		"neighbors": [
+			{"Ashtabula County": 39007},
+			{"Geauga County": 39055},
+			{"Lake County": 39085},
+			{"Trumbull County": 39155},
+			{"Crawford County, PA": 42039},
+			{"Erie County, PA": 42049}
+		]
+	},
+	{
+		"county_name": "Athens County", 
+		"zipcode": 39009, 
+		"neighbors": [
+			{"Athens County": 39009}, 
+			{"Hocking County": 39073},
+			{"Meigs County": 39105},
+			{"Morgan County": 39115},
+			{"Perry County": 39127},
+			{"Vinton County": 39163},
+			{"Washington County": 39167},
+			{"Wood County, WV": 54107}
+		]
+	},
+	{
+		"county_name": "Auglaize County", 
+		"zipcode": 39011, 
+		"neighbors": [
+			{"Allen County": 39003}, 
+			{"Auglaize County": 39011},
+			{"Hardin County": 39065},
+			{"Logan County": 39091},
+			{"Mercer County": 39107},
+			{"Shelby County": 39149},
+			{"Van Wert County, OH:": 39161 }
+		]
+	},
+	{
+		"county_name": "Belmont County", 
+		"zipcode": 39013, 
+		"neighbors": [
+			{"Belmont County": 39013}, 
+			{"Guernsey County": 39059},
+			{"Harrison County": 39067},
+			{"Jefferson County": 39081},
+			{"Monroe County": 39111},
+			{"Noble County": 39121},
+			{"Marshall County, WV": 54051},
+			{"Ohio County, WV": 54069}
+		]
+	},
+	{
+		"county_name": "Brown County", 
+		"zipcode": 39015, 
+		"neighbors": [
+			{"Bracken County, KY": 21023}, 
+			{"Mason County, KY": 21161},
+			{"Adams County": 39001},
+			{"Brown County": 39015},
+			{"Clermont County": 39025},
+			{"Clinton County": 39027},
+			{"Highland County": 39071}
+		]
+	},
+	{
+		"county_name": "Butler County", 
+		"zipcode": 39017, 
+		"neighbors": [
+			{"Dearborn County, IN": 18029}, 
+			{"Franklin County, IN": 18047},
+			{"Union County, IN": 18161},
+			{"Butler County": 39017},
+			{"Hamilton County": 39061},
+			{"Montgomery County": 39113},
+			{"Preble County": 39135},
+			{"Warren County": 39165}
+		]
+	},
+	{
+		"county_name": "Carroll County", 
+		"zipcode": 39019, 
+		"neighbors": [
+			{"Carroll County": 39019}, 
+			{"Columbiana County": 39029},
+			{"Harrison County": 39067},
+			{"Jefferson County": 39081},
+			{"Stark County": 39151},
+			{"Tuscarawas County": 39157}
+		]
+			},
+	{
+		"county_name": "Champaign County", 
+		"zipcode": 39021, 
+	"neighbors": [
+			{"Champaign County": 39021}, 
+			{"Clark County": 39023},
+			{"Logan County": 39091},
+			{"Madison County": 39097},
+			{"Miami County": 39109},
+			{"Shelby County": 39149},
+			{"Union County": 39159}
+		]
+			},
+	{
+		"county_name": "Clark County", 
+		"zipcode": 39023, 
+		"neighbors": [
+			{"Champaign County": 39021}, 
+			{"Clark County": 39023},
+			{"Greene County": 39057},
+			{"Madison County": 39097},
+			{"Miami County": 39109},
+			{"Montgomery County": 39113}
+		]
+	},
+	{
+		"county_name": "Clermont County", 
+		"zipcode": 39025, 
+	"neighbors": [
+			{"Bracken County, KY": 21023}, 
+			{"Campbell County, KY": 21037},
+			{"Pendleton County, KY": 21191},
+			{"Brown County": 39015},
+			{"Clermont County": 39025},
+			{"Clinton County": 39027},
+			{"Hamilton County": 39061},
+			{"Warren County": 39165}
+		]
+	},
+	{
+	"county_name": "Clinton County", 
+		"zipcode": 39027, 
+			"neighbors": [
+			{"Brown County": 39015}, 
+			{"Clermont County": 39025},
+			{"Clinton County": 39027},
+			{"Fayette County": 39047},
+			{"Greene County": 39057},
+			{"Highland County": 39071},
+			{"Warren County": 39165}
+		]
+			},
+	{
+		"county_name": "Columbiana County", 
+		"zipcode": 39029, 
+	"neighbors": [
+			{"Carroll County": 39019}, 
+			{"Columbiana County": 39029},
+			{"Jefferson County": 39081},
+			{"Mahoning County": 39099},
+			{"Stark County": 39151},
+			{"Beaver County, PA": 42007},
+			{"Lawrence County, PA": 42073},
+			{"Hancock County, WV": 54029}
+		]
+			},
+	{
+		"county_name": "Coshocton County", 
+		"zipcode": 39031, 
+			"neighbors": [
+			{"Coshocton County": 39031}, 
+			{"Guernsey County": 39059},
+			{"Holmes County": 39075},
+			{"Knox County": 39083},
+			{"Licking County": 39089},
+			{"Muskingum County": 39119},
+			{"Tuscarawas County": 39157}
+		]
+	},
+	{
+		"county_name": "Crawford County", 
+		"zipcode": 39033, 
+	"neighbors": [
+			{"Crawford County": 39033}, 
+			{"Huron County": 39077},
+			{"Marion County": 39101},
+			{"Morrow County": 39117},
+			{"Richland County": 39139},
+			{"Seneca County": 39147},
+			{"Wyandot County": 39175}
+		]
+	},
+	{
+	"county_name": "Cuyahoga County", 
+		"zipcode": 39035, 
+			"neighbors": [
+			{"Cuyahoga County": 39035}, 
+			{"Geauga County": 39055},
+			{"Lake County": 39085},
+			{"Lorain County": 39093},
+			{"Medina County": 39103},
+			{"Portage County": 39133},
+			{"Summit County": 39153}
+		]
+			},
+	{
+		"county_name": "Darke County", 
+		"zipcode": 39037, 
+	"neighbors": [
+			{"Jay County, IN": 18075}, 
+			{"Randolph County, IN": 18135},
+			{"Wayne County, IN": 18177},
+			{"Darke County": 39037},
+			{"Mercer County": 39107},
+			{"Miami County": 39109},
+			{"Montgomery County": 39113},
+			{"Preble County": 39135},
+			{"Shelby County": 39149}
+		]
+			},
+	{
+		"county_name": "Defiance County", 
+		"zipcode": 39039, 
+			"neighbors": [
+			{"Allen County, IN": 18003}, 
+			{"DeKalb County, IN": 18033},
+			{"Defiance County": 39039},
+			{"Henry County": 39069},
+			{"Paulding County": 39125},
+			{"Putnam County": 39137},
+			{"Williams County": 39171}
+		]
+	},
+	{
+		"county_name": "Delaware County", 
+		"zipcode": 39041, 
+	"neighbors": [
+			{"Delaware County": 39041}, 
+			{"Franklin County": 39049},
+			{"Knox County": 39083},
+			{"Licking County": 39089},
+			{"Marion County": 39101},
+			{"Morrow County": 39117},
+			{"Union County": 39159}
+		]
+	},
+	{
+	"county_name": "Erie County", 
+		"zipcode": 39043, 
+			"neighbors": [
+			{"Erie County": 39043}, 
+			{"Huron County": 39077},
+			{"Lorain County": 39093},
+			{"Ottawa County": 39123},
+			{"Sandusky County": 39143}
+		]
+			},
+	{
+		"county_name": "Fairfield County", 
+		"zipcode": 39045, 
+	"neighbors": [
+			{"Fairfield County": 39045}, 
+			{"Franklin County": 39049},
+			{"Hocking County": 39073},
+			{"Licking County": 39089},
+			{"Perry County": 39127},
+			{"Pickaway County": 39129}
+		]
+			},
+	{
+		"county_name": "Fayette County", 
+		"zipcode": 39047, 
+			"neighbors": [
+			{"Clinton County": 39027}, 
+			{"Fayette County": 39047},
+			{"Greene County": 39057},
+			{"Highland County": 39071},
+			{"Madison County": 39097},
+			{"Pickaway County": 39129},
+			{"Ross County": 39141}
+		]
+	},
+	{
+		"county_name": "Franklin County", 
+		"zipcode": 39049, 
+	"neighbors": [
+			{"Delaware County": 39041}, 
+			{"Fairfield County": 39045},
+			{"Franklin County": 39049},
+			{"Licking County": 39089},
+			{"Madison County": 39097},
+			{"Pickaway County": 39129},
+			{"Union County": 39159}
+		]
+	},
+	{
+	"county_name": "Fulton County", 
+		"zipcode": 39051, 
+			"neighbors": [
+			{"Hillsdale County, MI": 26059}, 
+			{"Lenawee County, MI": 26091},
+			{"Fulton County": 39051},
+			{"Henry County": 39069},
+			{"Lucas County": 39095},
+			{"Williams County": 39171}
+		]
+			},
+	{
+		"county_name": "Gallia County", 
+		"zipcode": 39053, 
+	"neighbors": [
+			{"Gallia County": 39053}, 
+			{"Jackson County": 39079},
+			{"Lawrence County": 39087},
+			{"Meigs County": 39105},
+			{"Vinton County": 39163},
+			{"Cabell County, WV": 54011},
+			{"Mason County, WV": 54053}
+		]
+			},
+	{
+		"county_name": "Geauga County", 
+		"zipcode": 39055, 
+			"neighbors": [
+			{"Ashtabula County": 39007}, 
+			{"Cuyahoga County": 39035},
+			{"Geauga County": 39055},
+			{"Lake County": 39085},
+			{"Portage County": 39133},
+			{"Summit County": 39153},
+			{"Trumbull County": 39155}
+		]
+	},
+	{
+		"county_name": "Greene County", 
+		"zipcode": 39057, 
+	"neighbors": [
+			{"Clark County": 39023}, 
+			{"Clinton County": 39027},
+			{"Fayette County": 39047},
+			{"Greene County": 39057},
+			{"Madison County": 39097},
+			{"Montgomery County": 39113},
+			{"Warren County": 39165}
+		]
+	},
+	{
+	"county_name": "Guernsey County", 
+		"zipcode": 39059, 
+			"neighbors": [
+			{"Belmont County": 39013}, 
+			{"Coshocton County": 39031},
+			{"Guernsey County": 39059},
+			{"Harrison County": 39067},
+			{"Muskingum County": 39119},
+			{"Noble County": 39121},
+			{"Tuscarawas County": 39157}
+		]
+			},
+	{
+		"county_name": "Hamilton County", 
+		"zipcode": 39061, 
+	"neighbors": [
+			{"Dearborn County, IN": 18029}, 
+			{"Franklin County, IN": 18047},
+			{"Boone County, KY": 21015},
+			{"Campbell County, KY": 21037},
+			{"Kenton County, KY": 21117},
+			{"Butler County": 39017},
+			{"Clermont County": 39025},
+			{"Hamilton County": 39061},
+			{"Warren County": 39165}
+		]
+			},
+	{
+		"county_name": "Hancock County", 
+		"zipcode": 39063, 
+			"neighbors": [
+			{"Allen County": 39003}, 
+			{"Hancock County": 39063},
+			{"Hardin County": 39065},
+			{"Henry County": 39069},
+			{"Putnam County": 39137},
+			{"Seneca County": 39147},
+			{"Wood County": 39173},
+			{"Wyandot County": 39175}
+		]
+	},
+	{
+		"county_name": "Hardin County", 
+		"zipcode": 39065, 
+	"neighbors": [
+			{"Allen County": 39003}, 
+			{"Auglaize County": 39011},
+			{"Hancock County": 39063},
+			{"Hardin County": 39065},
+			{"Logan County": 39091},
+			{"Marion County": 39101},
+			{"Union County": 39159},
+			{"Wyandot County": 39175}
+		]
+	},
+	{
+	"county_name": "Harrison County", 
+		"zipcode": 39067, 
+			"neighbors": [
+			{"Belmont County": 39013}, 
+			{"Carroll County": 39019},
+			{"Guernsey County": 39059},
+			{"Harrison County": 39067},
+			{"Jefferson County": 39081},
+			{"Tuscarawas County": 39157}
+		]
+			},
+	{
+		"county_name": "Henry County", 
+		"zipcode": 39069, 
+	"neighbors": [
+			{"Defiance County": 39039}, 
+			{"Fulton County": 39051},
+			{"Hancock County": 39063},
+			{"Henry County": 39069},
+			{"Lucas County": 39095},
+			{"Putnam County": 39137},
+			{"Williams County": 39171},
+			{"Wood County": 39173}
+		]
+			},
+	{
+		"county_name": "Highland County", 
+		"zipcode": 39071, 
+			"neighbors": [
+			{"Adams County": 39001}, 
+			{"Brown County": 39015},
+			{"Clinton County": 39027},
+			{"Fayette County": 39047},
+			{"Highland County": 39071},
+			{"Pike County": 39131},
+			{"Ross County": 39141}
+		]
+	},
+	{
+		"county_name": "Hocking County", 
+		"zipcode": 39073, 
+	"neighbors": [
+			{"Athens County": 39009}, 
+			{"Fairfield County": 39045},
+			{"Hocking County": 39073},
+			{"Perry County": 39127},
+			{"Pickaway County": 39129},
+			{"Ross County": 39141},
+			{"Vinton County": 39163}
+		]
+	},
+	{
+	"county_name": "Holmes County", 
+		"zipcode": 39075, 
+			"neighbors": [
+			{"Ashland County": 39005}, 
+			{"Coshocton County": 39031},
+			{"Holmes County": 39075},
+			{"Knox County": 39083},
+			{"Stark County": 39151},
+			{"Tuscarawas County": 39157},
+			{"Wayne County": 39169}
+		]
+			},
+	{
+		"county_name": "Huron County", 
+		"zipcode": 39077, 
+	"neighbors": [
+			{"Ashland County": 39005}, 
+			{"Crawford County": 39033},
+			{"Erie County": 39043},
+			{"Huron County": 39077},
+			{"Lorain County": 39093},
+			{"Richland County": 39139},
+			{"Sandusky County": 39143},
+			{"Seneca County": 39147}
+		]
+			},
+	{
+		"county_name": "Jackson County", 
+		"zipcode": 39079, 
+			"neighbors": [
+			{"Gallia County": 39053}, 
+			{"Jackson County": 39079},
+			{"Lawrence County": 39087},
+			{"Pike County": 39131},
+			{"Ross County": 39141},
+			{"Scioto County": 39145},
+			{"Vinton County": 39163}
+		]
+	},
+	{
+		"county_name": "Jefferson County", 
+		"zipcode": 39081, 
+	"neighbors": [
+			{"Belmont County": 39013}, 
+			{"Carroll County": 39019},
+			{"Columbiana County": 39029},
+			{"Harrison County": 39067},
+			{"Jefferson County": 39081},
+			{"Brooke County, WV": 54009},
+			{"Hancock County, WV": 54029},
+			{"Ohio County, WV": 54069}
+		]
+	},
+	{
+	"county_name": "Knox County", 
+		"zipcode": 39083, 
+			"neighbors": [
+			{"Ashland County": 39005}, 
+			{"Coshocton County": 39031},
+			{"Delaware County": 39041},
+			{"Holmes County": 39075},
+			{"Knox County": 39083},
+			{"Licking County": 39089},
+			{"Morrow County": 39117},
+			{"Richland County": 39139}
+		]
+			},
+	{
+		"county_name": "Lake County", 
+		"zipcode": 39085, 
+	"neighbors": [
+			{"Ashtabula County": 39007}, 
+			{"Cuyahoga County": 39035},
+			{"Geauga County": 39055},
+			{"Lake County": 39085}
+		]
+			},
+	{
+		"county_name": "Lawrence County", 
+		"zipcode": 39087, 
+			"neighbors": [
+			{"Boyd County, KY": 21019}, 
+			{"Greenup County, KY": 21089},
+			{"Gallia County": 39053},
+			{"Jackson County": 39079},
+			{"Lawrence County": 39087},
+			{"Scioto County": 39145},
+			{"Cabell County, WV": 54011},
+			{"Wayne County, WV": 54099}
+		]
+	},
+	{
+		"county_name": "Licking County", 
+		"zipcode": 39089, 
+	"neighbors": [
+			{"Coshocton County": 39031}, 
+			{"Delaware County": 39041},
+			{"Fairfield County": 39045},
+			{"Franklin County": 39049},
+			{"Knox County": 39083},
+			{"Licking County": 39089},
+			{"Muskingum County": 39119},
+			{"Perry County": 39127}
+		]
+	},
+	{
+	"county_name": "Logan County", 
+		"zipcode": 39091, 
+			"neighbors": [
+			{"Auglaize County": 39011}, 
+			{"Champaign County": 39021},
+			{"Hardin County": 39065},
+			{"Logan County": 39091},
+			{"Shelby County": 39149},
+			{"Union County": 39159}
+		]
+			},
+	{
+		"county_name": "Lorain County", 
+		"zipcode": 39093, 
+	"neighbors": [
+			{"Ashland County": 39005}, 
+			{"Cuyahoga County": 39035},
+			{"Erie County": 39043},
+			{"Huron County": 39077},
+			{"Lorain County": 39093},
+			{"Medina County": 39103}
+		]
+			},
+	{
+		"county_name": "Lucas County", 
+		"zipcode": 39095, 
+			"neighbors": [
+			{"Lenawee County, MI": 26091}, 
+			{"Monroe County, MI": 26115},
+			{"Fulton County": 39051},
+			{"Henry County": 39069},
+			{"Lucas County": 39095},
+			{"Ottawa County": 39123},
+			{"Wood County": 39173}
+		]
+	},
+	{
+		"county_name": "Madison County", 
+		"zipcode": 39097, 
+	"neighbors": [
+			{"Champaign County": 39021}, 
+			{"Clark County": 39023},
+			{"Fayette County": 39047},
+			{"Franklin County": 39049},
+			{"Greene County": 39057},
+			{"Madison County": 39097},
+			{"Pickaway County": 39129},
+			{"Union County": 39159}
+		]
+	},
+	{
+	"county_name": "Mahoning County", 
+		"zipcode": 39099, 
+			"neighbors": [
+			{"Columbiana County": 39029}, 
+			{"Mahoning County": 39099},
+			{"Portage County": 39133},
+			{"Stark County": 39151},
+			{"Trumbull County": 39155},
+			{"Lawrence County, PA": 42073},
+			{"Mercer County, PA": 42085}
+		]
+			},
+	{
+		"county_name": "Marion County", 
+		"zipcode": 39101, 
+	"neighbors": [
+			{"Crawford County": 39033}, 
+			{"Delaware County": 39041},
+			{"Hardin County": 39065},
+			{"Marion County": 39101},
+			{"Morrow County": 39117},
+			{"Union County": 39159},
+			{"Wyandot County": 39175}
+		]
+			},
+	{
+		"county_name": "Medina County", 
+		"zipcode": 39103, 
+			"neighbors": [
+			{"Ashland County": 39005}, 
+			{"Cuyahoga County": 39035},
+			{"Lorain County": 39093},
+			{"Medina County": 39103},
+			{"Summit County": 39153},
+			{"Wayne County": 39169}
+		]
+	},
+	{
+		"county_name": "Meigs County", 
+		"zipcode": 39105, 
+	"neighbors": [
+			{"Athens County": 39009}, 
+			{"Gallia County": 39053},
+			{"Meigs County": 39105},
+			{"Vinton County": 39163},
+			{"Jackson County, WV": 54035},
+			{"Mason County, WV": 54053},
+			{"Wood County, WV": 54107}
+		]
+	},
+	{
+	"county_name": "Mercer County", 
+		"zipcode": 39107, 
+			"neighbors": [
+			{"Adams County, IN": 18001}, 
+			{"Jay County, IN": 18075},
+			{"Auglaize County": 39011},
+			{"Darke County": 39037},
+			{"Mercer County": 39107},
+			{"Shelby County": 39149},
+			{"Van Wert County, OH:": 39161 }
+		]
+	},
+	{
+		"county_name": "Miami County", 
+		"zipcode": 39109, 
+	"neighbors": [
+			{"Champaign County": 39021}, 
+			{"Clark County": 39023},
+			{"Darke County": 39037},
+			{"Miami County": 39109},
+			{"Montgomery County": 39113},
+			{"Shelby County": 39149}
+		]
+			},
+	{
+		"county_name": "Monroe County", 
+		"zipcode": 39111, 
+			"neighbors": [
+			{"Belmont County": 39013}, 
+			{"Monroe County": 39111},
+			{"Noble County": 39121},
+			{"Washington County": 39167},
+			{"Marshall County, WV": 54051},
+			{"Tyler County, WV": 54095},
+			{"Wetzel County, WV": 54103}
+		]
+	},
+	{
+		"county_name": "Montgomery County", 
+		"zipcode": 39113, 
+	"neighbors": [
+			{"Butler County": 39017}, 
+			{"Clark County": 39023},
+			{"Darke County": 39037},
+			{"Greene County": 39057},
+			{"Miami County": 39109},
+			{"Montgomery County": 39113},
+			{"Preble County": 39135},
+			{"Warren County": 39165}
+		]
+	},
+	{
+	"county_name": "Morgan County", 
+		"zipcode": 39115, 
+			"neighbors": [
+			{"Athens County": 39009}, 
+			{"Morgan County": 39115},
+			{"Muskingum County": 39119},
+			{"Noble County": 39121},
+			{"Perry County": 39127},
+			{"Washington County": 39167}
+		]
+			},
+	{
+		"county_name": "Morrow County", 
+		"zipcode": 39117, 
+	"neighbors": [
+			{"Crawford County": 39033}, 
+			{"Delaware County": 39041},
+			{"Knox County": 39083},
+			{"Marion County": 39101},
+			{"Morrow County": 39117},
+			{"Richland County": 39139}
+		]
+			},
+	{
+		"county_name": "Muskingum County", 
+		"zipcode": 39119, 
+			"neighbors": [
+			{"Coshocton County": 39031}, 
+			{"Guernsey County": 39059},
+			{"Licking County": 39089},
+			{"Morgan County": 39115},
+			{"Muskingum County": 39119},
+			{"Noble County": 39121},
+			{"Perry County": 39127}
+		]
+	},
+	{
+		"county_name": "Noble County", 
+		"zipcode": 39121, 
+	"neighbors": [
+			{"Belmont County": 39013}, 
+			{"Guernsey County": 39059},
+			{"Monroe County": 39111},
+			{"Morgan County": 39115},
+			{"Muskingum County": 39119},
+			{"Noble County": 39121},
+			{"Washington County": 39167}
+		]
+	},
+	{
+		"county_name": "Ottawa County", 
+		"zipcode": 39123, 
+		"neighbors": [
+			{"Erie County": 39043}, 
+			{"Lucas County": 39095},
+			{"Ottawa County": 39123},
+			{"Sandusky County": 39143},
+			{"Wood County": 39173}
+		]
+	},
+	{
+		"county_name": "Paulding County", 
+		"zipcode": 39125, 
+	"neighbors": [
+			{"Allen County, IN": 18003}, 
+			{"Defiance County": 39039},
+			{"Paulding County": 39125},
+			{"Putnam County": 39137},
+			{"Van Wert County, OH:": 39161 }
+		]
+	},
+	{
+		"county_name": "Perry County", 
+		"zipcode": 39127, 
+			"neighbors": [
+			{"Athens County": 39009}, 
+			{"Fairfield County": 39045},
+			{"Hocking County": 39073},
+			{"Licking County": 39089},
+			{"Morgan County": 39115},
+			{"Muskingum County": 39119},
+			{"Perry County": 39127}
+		]
+	},
+	{
+		"county_name": "Pickaway County", 
+		"zipcode": 39129, 
+	"neighbors": [
+			{"Fairfield County": 39045}, 
+			{"Fayette County": 39047},
+			{"Franklin County": 39049},
+			{"Hocking County": 39073},
+			{"Madison County": 39097},
+			{"Pickaway County": 39129},
+			{"Ross County": 39141}
+		]
+	},
+	{
+	"county_name": "Pike County", 
+		"zipcode": 39131, 
+			"neighbors": [
+			{"Adams County": 39001}, 
+			{"Highland County": 39071},
+			{"Jackson County": 39079},
+			{"Pike County": 39131},
+			{"Ross County": 39141},
+			{"Scioto County": 39145}
+		]
+			},
+	{
+		"county_name": "Portage County", 
+		"zipcode": 39133, 
+	"neighbors": [
+			{"Cuyahoga County": 39035}, 
+			{"Geauga County": 39055},
+			{"Mahoning County": 39099},
+			{"Portage County": 39133},
+			{"Stark County": 39151},
+			{"Summit County": 39153},
+			{"Trumbull County": 39155}
+		]
+			},
+	{
+		"county_name": "Preble County", 
+		"zipcode": 39135, 
+			"neighbors": [
+			{"Union County, IN": 18161}, 
+			{"Wayne County, IN": 18177},
+			{"Butler County": 39017},
+			{"Darke County": 39037},
+			{"Montgomery County": 39113},
+			{"Preble County": 39135}
+		]
+	},
+	{
+		"county_name": "Putnam County", 
+		"zipcode": 39137, 
+	"neighbors": [
+			{"Allen County": 39003}, 
+			{"Defiance County": 39039},
+			{"Hancock County": 39063},
+			{"Henry County": 39069},
+			{"Paulding County": 39125},
+			{"Putnam County": 39137},
+			{"Van Wert County, OH:": 39161},
+			{"Wood County": 39173}
+		]
+	},
+	{
+	"county_name": "Richland County", 
+		"zipcode": 39139, 
+			"neighbors": [
+			{"Ashland County": 39005}, 
+			{"Crawford County": 39033},
+			{"Huron County": 39077},
+			{"Knox County": 39083},
+			{"Morrow County": 39117},
+			{"Richland County": 39139}
+		]
+			},
+	{
+		"county_name": "Ross County", 
+		"zipcode": 39141, 
+	"neighbors": [
+			{"Fayette County": 39047}, 
+			{"Highland County": 39071},
+			{"Hocking County": 39073},
+			{"Jackson County": 39079},
+			{"Pickaway County": 39129},
+			{"Pike County": 39131},
+			{"Ross County": 39141},
+			{"Vinton County": 39163}
+		]
+			},
+	{
+		"county_name": "Sandusky County", 
+		"zipcode": 39143, 
+			"neighbors": [
+			{"Erie County": 39043}, 
+			{"Huron County": 39077},
+			{"Ottawa County": 39123},
+			{"Sandusky County": 39143},
+			{"Seneca County": 39147},
+			{"Wood County": 39173}
+		]
+	},
+	{
+		"county_name": "Scioto County", 
+		"zipcode": 39145, 
+	"neighbors": [
+			{"Greenup County, KY": 21089}, 
+			{"Lewis County, KY": 21135},
+			{"Adams County": 39001},
+			{"Jackson County": 39079},
+			{"Lawrence County": 39087},
+			{"Pike County": 39131},
+			{"Scioto County": 39145}
+		]
+	},
+	{
+	"county_name": "Seneca County", 
+		"zipcode": 39147, 
+			"neighbors": [
+			{"Crawford County": 39033}, 
+			{"Hancock County": 39063},
+			{"Huron County": 39077},
+			{"Sandusky County": 39143},
+			{"Seneca County": 39147},
+			{"Wood County": 39173},
+			{"Wyandot County": 39175}
+		]
+			},
+	{
+		"county_name": "Shelby County", 
+		"zipcode": 39149, 
+	"neighbors": [
+			{"Auglaize County": 39011}, 
+			{"Champaign County": 39021},
+			{"Darke County": 39037},
+			{"Logan County": 39091},
+			{"Mercer County": 39107},
+			{"Miami County": 39109},
+			{"Shelby County": 39149}
+		]
+			},
+	{
+		"county_name": "Stark County", 
+		"zipcode": 39151, 
+			"neighbors": [
+			{"Carroll County": 39019}, 
+			{"Columbiana County": 39029},
+			{"Holmes County": 39075},
+			{"Mahoning County": 39099},
+			{"Portage County": 39133},
+			{"Stark County": 39151},
+			{"Summit County": 39153},
+			{"Tuscarawas County": 39157},
+			{"Wayne County": 39169}
+		]
+	},
+	{
+		"county_name": "Summit County", 
+		"zipcode": 39153, 
+	"neighbors": [
+			{"Cuyahoga County": 39035}, 
+			{"Geauga County": 39055},
+			{"Medina County": 39103},
+			{"Portage County": 39133},
+			{"Stark County": 39151},
+			{"Summit County": 39153},
+			{"Wayne County": 39169}
+		]
+	},
+	{
+	"county_name": "Trumbull County", 
+		"zipcode": 39155, 
+			"neighbors": [
+			{"Ashtabula County": 39007}, 
+			{"Geauga County": 39055},
+			{"Mahoning County": 39099},
+			{"Portage County": 39133},
+			{"Trumbull County": 39155},
+			{"Crawford County, PA": 42039},
+			{"Mercer County, PA": 42085}
+		]
+			},
+	{
+		"county_name": "Tuscarawas County", 
+		"zipcode": 39157, 
+	"neighbors": [
+			{"Carroll County": 39019}, 
+			{"Coshocton County": 39031},
+			{"Guernsey County": 39059},
+			{"Harrison County": 39067},
+			{"Holmes County": 39075},
+			{"Stark County": 39151},
+			{"Tuscarawas County": 39157}
+		]
+			},
+	{
+		"county_name": "Union County", 
+		"zipcode": 39159, 
+			"neighbors": [
+			{"Champaign County": 39021}, 
+			{"Delaware County": 39041},
+			{"Franklin County": 39049},
+			{"Hardin County": 39065},
+			{"Logan County": 39091},
+			{"Madison County": 39097},
+			{"Marion County": 39101},
+			{"Union County": 39159}
+		]
+	},
+	{
+	"county_name": "Van Wert County",
+		"zipcode": 39161,
+		"neighbors": [
+			{	"Adams County, IN": 18001}, 
+			{"Allen County, IN": 18003},
+			{"Allen County": 39003},
+			{"Auglaize County": 39011},
+			{"Mercer County": 39107},
+			{"Paulding County": 39125},
+			{"Putnam County": 39137},
+			{"Van Wert County, OH:": 39161 }
+		]
+	},
+	{
+	"county_name": "Vinton County", 
+		"zipcode": 39163, 
+			"neighbors": [
+			{"Athens County": 39009}, 
+			{"Gallia County": 39053},
+			{"Hocking County": 39073},
+			{"Jackson County": 39079},
+			{"Meigs County": 39105},
+			{"Ross County": 39141},
+			{"Vinton County": 39163}
+		]
+			},
+	{
+			"county_name": "Warren County", 
+		"zipcode": 39165, 
+	"neighbors": [
+			{"Butler County": 39017}, 
+			{"Clermont County": 39025},
+			{"Clinton County": 39027},
+			{"Greene County": 39057},
+			{"Hamilton County": 39061},
+			{"Montgomery County": 39113},
+			{"Warren County": 39165}
+		]
+			},
+	{
+		"county_name": "Washington County", 
+		"zipcode": 39167, 
+			"neighbors": [
+			{"Athens County": 39009}, 
+			{"Monroe County": 39111},
+			{"Morgan County": 39115},
+			{"Noble County": 39121},
+			{"Washington County": 39167},
+			{"Pleasants County, WV": 54073},
+			{"Tyler County, WV": 54095},
+			{"Wood County, WV": 54107}
+		]
+	},
+	{
+		"county_name": "Wayne County", 
+		"zipcode": 39169, 
+		"neighbors": [
+			{"Ashland County": 39005}, 
+			{"Holmes County": 39075},
+			{"Medina County": 39103},
+			{"Stark County": 39151},
+			{"Summit County": 39153},
+			{"Wayne County": 39169}
+		]
+	},
+	{
+		"county_name": "Williams County", 
+		"zipcode": 39171, 
+		"neighbors": [
+			{"DeKalb County, IN": 18033}, 
+			{"Steuben County, IN": 18151},
+			{"Hillsdale County, MI": 26059},
+			{"Defiance County": 39039},
+			{"Fulton County": 39051},
+			{"Henry County": 39069},
+			{"Williams County": 39171}
+		]
+			},
+	{
+		"county_name": "Wood County", 
+		"zipcode": 39173, 
+		"neighbors": [
+			{"Hancock County": 39063}, 
+			{"Henry County": 39069},
+			{"Lucas County": 39095},
+			{"Ottawa County": 39123},
+			{"Putnam County": 39137},
+			{"Sandusky County": 39143},
+			{"Seneca County": 39147},
+			{"Wood County": 39173}
+		]
+			},
+	{
+		"county_name": "Wyandot County", 
+		"zipcode": 39175, 
+			"neighbors": [
+				{"Crawford County": 39033}, 
+				{"Hancock County": 39063},
+				{"Hardin County": 39065},
+				{"Marion County": 39101},
+				{"Seneca County": 39147},
+				{"Wyandot County": 39175}
+			]
+		}
+]
